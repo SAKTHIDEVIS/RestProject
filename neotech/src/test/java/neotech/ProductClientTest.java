@@ -52,7 +52,7 @@ public class ProductClientTest {
 		assertNotNull(products);
 	}
 	
-	@Test(description="Adding product",timeOut=10)
+	@Test(description="Adding product")
 	public void testAddProduct() { 
 		//Act
 		Response added = client.addProduct(new Product(4, 20000f,"Hello moto", "Motrola")); 
